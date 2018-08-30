@@ -245,16 +245,16 @@
         else if(forecastType5 == "50d" || forecastType5 == "50n"){
             document.querySelector(".weatherIcon5").src = "images/icons/mist.svg";
         }
-    // let currentTime = new Date();
-    // let sunrise = new Date(data.sys.sunrise*1000);
-    // let sunset = new Date(data.sys.sunser*1000);
+    let currentTime = new Date();
+    let sunrise = new Date(data.sys.sunrise*1000);
+    let sunset = new Date(data.sys.sunser*1000);
 
-    //  if (currentTime > sunrise &&currentTime < sunset){
-    //     document.querySelector('body').style["background-image"]=`url(image/day.jpg)`;
-    //     document.querySelector('div').style['background-color']=`#fdd274`;
-    //  }else{
-    //     document.querySelector('body').style["background-image"]=`url(image/night.jpg)`;
-    //     document.querySelector('div').style['background-color']=`#805fcb`; 
-    //  }
+     if (currentTime > sunrise &&currentTime < sunset){
+        document.querySelector('body').style["background-images"]=`url(image/day.jpg)`;
+        document.querySelector('div').style['background-color']=`#fdd274`;
+     }else{
+        document.querySelector('body').style["background-images"]=`url(image/night.jpg)`;
+        document.querySelector('div').style['background-color']=`#805fcb`; 
+     }
  }
 
