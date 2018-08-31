@@ -17,8 +17,7 @@
             overflow-y:scroll;
         }
         body{
-            background-image: url(images/download.png);
-            background-image: cover;
+            background-color:#96d5cd ;
             background-position: center;
             background-repeat: no-repeat;
             color: white;
@@ -135,10 +134,10 @@
             font-size: 50px;
         }
         .black{
-            background-color:#1e202b;
+            background-color:#01b4a1;
         }
         .grey{
-            background-color: #313544;
+            background-color: #018174;
         }
         .add-icons{
             color: #8e8f94;
