@@ -1,4 +1,4 @@
-        body,html{
+body,html{
             
             width: 100%;
             margin: 0;
@@ -17,7 +17,8 @@
             overflow-y:scroll;
         }
         body{
-            background-color:#96d5cd ;
+            background-color: #96d5cd;
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             color: white;
@@ -57,7 +58,7 @@
             width: 78px;
         }
         h1{
-            font-size: 50px;
+            font-size: 70px;
             margin: 0;
         }
         .fa-sun{
@@ -122,7 +123,7 @@
             flex-direction:column;
         }
         .none-h{
-            font-size: 5em;
+            font-size: 8vw;
         }
         .g-color{
             background-color: #3f4352;
